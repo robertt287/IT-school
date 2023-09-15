@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Use a ternary operator to classify the person into one of the following categories: "Child" (age < 12),
 // "Teenager" (age between 12 and 17), "Adult" (age between 18 and 64), and "Senior" (age 65 and above).
 // Print the resulting classification.
-public class challenge19 {
+public class Challenge19 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

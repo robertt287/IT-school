@@ -6,7 +6,7 @@ package session4.challenges;
 
 import java.sql.SQLOutput;
 
-public class challenge2 {
+public class Challenge2 {
     public static void main(String[] args) {
         int firstNumber = 5;
         int secondNumber = 10;

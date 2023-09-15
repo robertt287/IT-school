@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //20. Write a Java program that takes three integer variables a, b, and c as input.
 // Use nested ternary operators to find and print the largest number among the three.
-public class challenge20 {
+public class Challenge20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first integer");
