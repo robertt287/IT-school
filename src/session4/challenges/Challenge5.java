@@ -1,7 +1,7 @@
 package session4.challenges;
 
 //5. Write a Java program to print the numbers from 1 to 10 using a for loop. As a next step, modify your program to print only the even numbers from 1 to 10.
-public class challenge5 {
+public class Challenge5 {
 
     public static void main(String[] args) {
         System.out.println("Print numbers from 1 to 10 using for loop");

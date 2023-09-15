@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //10. Write a Java program that creates two distinct ArrayList objects, listOne and listTwo.
 // Add some elements to listOne and assign listOne to listTwo. Now modify listOne by adding a new element. Print both lists and observe the output.
 
-public class challenge10 {
+public class Challenge10 {
     public static void main(String[] args) {
         ArrayList<String> listOne = new ArrayList<String>();
         ArrayList<String> listTwo = new ArrayList<String>();

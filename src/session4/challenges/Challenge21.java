@@ -10,7 +10,7 @@ import java.util.Scanner;
 //C: 70-79
 //D: 60-69
 //F: 0-59
-public class challenge21 {
+public class Challenge21 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

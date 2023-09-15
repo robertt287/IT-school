@@ -7,7 +7,7 @@ package session4.challenges;
 //If hasUsername is true but hasPassword is false, print "Password is incorrect".
 
 
-public class challenge17 {
+public class Challenge17 {
     public static void main(String[] args) {
         boolean hasUserName = true;
         boolean hasPassword = false;
