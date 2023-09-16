@@ -10,18 +10,18 @@ public class ForExercises {
         String[] myArray = {"Apple", "Cheery", "Plum"};
         printArray(myArray);
 
-        int[] intArray={2,3,7,43,67};
+        int[] intArray = {2, 3, 7, 43, 67};
         printArrayMaxValue(intArray);
 
         printSearchedValue(intArray, 7);
 
-        int[][] secondArray={{1,2,3}, {6,9,43}, {8,1,10}};
+        int[][] secondArray = {{1, 2, 3}, {6, 9, 43}, {8, 1, 10}};
         print2dArray(secondArray);
         System.out.println("first Value from first nested array: " + secondArray[0][1]);
     }
 
     public static void printEvenNumbers(int number) {
-        for (int index = -0; index <= number; index += 2) {
+        for (int index = 0; index <= number; index += 2) {
             System.out.println(index);
         }
     }
@@ -56,18 +56,18 @@ public class ForExercises {
         System.out.println("Max Value " + maxValue);
     }
 
-    public static void printSearchedValue(int[] array, int value){
-        for(int number:array){
-            if(number==value){
+    public static void printSearchedValue(int[] array, int value) {
+        for (int number : array) {
+            if (number == value) {
                 System.out.println("Number found " + value);
                 break;
             }
         }
     }
 
-    public static void print2dArray(int[][] array){
-        for(int rowIndex=0; rowIndex< array.length;rowIndex++){
-            for(int columnIndex=0; columnIndex<array[0].length;columnIndex++){
+    public static void print2dArray(int[][] array) {
+        for (int rowIndex = 0; rowIndex < array.length; rowIndex++) {
+            for (int columnIndex = 0; columnIndex < array[0].length; columnIndex++) {
                 System.out.print(array[rowIndex][columnIndex] + " ");
             }
             System.out.println(" ");
