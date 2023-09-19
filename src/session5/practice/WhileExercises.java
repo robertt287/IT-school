@@ -14,14 +14,15 @@ public class WhileExercises {
         }
     }
 
-    public static void printSumUntilLimit(int value){
-        int number=1;
-        int sum=0;
-        while(number<value);{
-            sum+=number;
+    public static void printSumUntilLimit(int value) {
+        int number = 1;
+        int sum = 0;
+        while (number < value)
+        {
+            sum += number;
             number++;
         }
-        System.out.println("Sum"+ sum);
+        System.out.println("Sum" + sum);
     }
 }
 //de corectat
