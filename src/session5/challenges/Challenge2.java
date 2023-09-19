@@ -1,18 +1,23 @@
 package session5.challenges;
 
 
+import java.util.Scanner;
 
 //2. Month Name Finder
 //Write a program that asks the user to enter a number between 1 and 12.
 // Print the name of the corresponding month or "Invalid Month" if out of range.
 public class Challenge2 {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number between 1 and 12");
-        monthsInAYear(10);
+        monthsInAYear(scanner.nextInt());
+        scanner.close();
+
+
     }
 
     public static void monthsInAYear(int number) {
+
         switch (number) {
             case 1:
                 System.out.println("It's January");
